@@ -1,5 +1,41 @@
-h4{
-    color: red;
-    background: green;
-    width: 75%;
+ @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.hero {
+    background-image: url("../Images/Cow.jpg");
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero h1 {
+
+    font-family: cursive;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 100px;
+    color:burlywood;
+    padding-top: 30px;
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+.article{
+    width: 80%;
+    background-color: blue;
+     margin: 30px auto ;
+     padding: 20px
+}
+.article h4{
+    text-align: center;
+   font-family: "BBH Sans Hegarty", sans-serif;
 }
